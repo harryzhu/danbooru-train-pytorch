@@ -7,7 +7,7 @@
         <meta name="author" content="Harry">
         <title></title>
 
-        <link href="public/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     </head>
 
@@ -16,8 +16,8 @@
 
 		<?php echo $this->getContent(); ?>
 	
-        <script src="public/assets/bootstrap/js/jquery-2.1.1.min.js"></script>
-        <script src="public/assets/bootstrap/js/bootstrap.js"></script>
+        <script src="assets/bootstrap/js/jquery-2.1.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.js"></script>
 
 </body>
 </html>
