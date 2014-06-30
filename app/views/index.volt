@@ -7,7 +7,7 @@
         <meta name="author" content="Harry">
         <title></title>
 
-        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        {{ stylesheet_link("assets/bootstrap/css/bootstrap.min.css") }}
 
     </head>
 
@@ -16,8 +16,8 @@
 
 		{{ content() }}
 	
-        <script src="assets/bootstrap/js/jquery-2.1.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.js"></script>
+       {{ javascript_include("assets/bootstrap/js/jquery-2.1.1.min.js") }}
+        {{ javascript_include("assets/bootstrap/js/bootstrap.min.js") }}
 
 </body>
 </html>
