@@ -1,6 +1,4 @@
 <?php
-define('APP_ROOT','D:\Dev\www\php\console');
-
 return new \Phalcon\Config(array(
     'database' => array(
         'adapter'     => 'Mysql',
@@ -16,6 +14,6 @@ return new \Phalcon\Config(array(
         'pluginsDir'     => __DIR__ . '/../../app/plugins/',
         'libraryDir'     => __DIR__ . '/../../app/library/',
         'cacheDir'       => __DIR__ . '/../../app/cache/',
-        'baseUri'        => '/console/',
+        'baseUri'        => '/',
     )
 ));
