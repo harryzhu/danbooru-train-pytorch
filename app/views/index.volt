@@ -8,16 +8,20 @@
         <title></title>
 
         {{ stylesheet_link("assets/bootstrap/css/bootstrap.min.css") }}
-
+        {{ stylesheet_link("assets/css/status.css") }}
+        {{ javascript_include("assets/bootstrap/js/jquery-2.1.1.min.js") }}
+        {{ javascript_include("assets/bootstrap/js/bootstrap.min.js") }}
     </head>
 
-	<body>
-{{ partial("partials/nav") }}
+    <body>
+        {{ partial("partials/nav") }}
 
-		{{ content() }}
-	
-       {{ javascript_include("assets/bootstrap/js/jquery-2.1.1.min.js") }}
-        {{ javascript_include("assets/bootstrap/js/bootstrap.min.js") }}
-
-</body>
+        <div class="container-fluid content">
+            {{ content() }}
+            <div class="clearfix"></div>
+        </div>
+        <div class="container-fluid footer">
+            {{ partial("partials/footer") }}
+        </div>
+    </body>
 </html>
