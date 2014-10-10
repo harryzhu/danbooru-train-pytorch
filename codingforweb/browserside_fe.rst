@@ -1,22 +1,7 @@
-Front End: Client/Browser Side
+前端: 客户（浏览器）端
 ==============================
 
-HTML
-----------
-    * How to `validate`_ your code?
-    * `YSlow`_ your code
 
-
-CSS
-----------
-    * Bootstrap
-    * Blueprint
-    * Pure
-
-JavaScript
-----------
-    * jQuery
-    * AngularJS
 
 
 

@@ -19,7 +19,7 @@ Coding For Web
    codingforweb/getting_started
    codingforweb/browserside_fe
    codingforweb/serverside_be
-   codingforweb/homework
+   codingforweb/practice
 
 
 
