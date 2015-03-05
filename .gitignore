@@ -1,6 +1,6 @@
 /_build/*
-/app/elasticsearch/bin/*
-/app/elasticsearch/lib/*
+/elasticsearch/bin/*
+/elasticsearch/lib/*
 LICENSE.txt
 NOTICE.txt
 README.textile
