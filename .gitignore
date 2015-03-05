@@ -1,4 +1,9 @@
 /_build/*
+/app/elasticsearch/bin/*
+/app/elasticsearch/lib/*
+LICENSE.txt
+NOTICE.txt
+README.textile
 .DS_Store
 .DS_Store?
 ._*
