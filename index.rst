@@ -16,12 +16,12 @@ ElasticSearch + Logstash + Kibana
 .. toctree::
    :maxdepth: 2
 
-   elk/getting_started
-   elk/elasticsearch
-   elk/logstash
-   elk/kibana
-   elk/redis
-   elk/system
+   doc/getting_started
+   doc/elasticsearch
+   doc/logstash
+   doc/kibana
+   doc/redis
+   doc/system
 
 
 
