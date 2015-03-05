@@ -13,6 +13,8 @@
 /logstash/vendor/*
 !/logstash/vendor/kibana/app/dashboards/jv*
 LICENSE.txt
+LICENSE
+README.md
 NOTICE.txt
 README.textile
 .DS_Store
