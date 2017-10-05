@@ -1,0 +1,27 @@
+[cache]
+cache_file_dir = "cache"
+
+[log]
+log_dir = "logs"
+
+[path]
+source_dir = "images/face-source"
+faces_dir = "images/faces"
+candidates_dir = "images/face-candidates"
+recognition_dir = "images/recognitionImages"
+recognition_tmp_dir = "images/recognitionTemp"
+
+[dataset]
+dataset_shape_predictor = "conf/shape_predictor_68_face_landmarks.dat"
+dataset_face_recognition = "conf/dlib_face_recognition_resnet_model_v1.dat"
+
+[face]
+face_width = 150
+face_height = 150
+face_jpeg_quality = 99
+face_compute_descriptor_call = 30
+face_filename_prefix = "face"
+
+
+
+
