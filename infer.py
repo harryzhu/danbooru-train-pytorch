@@ -44,7 +44,7 @@ def danbooru_tags(fpath):
 
 
 
-t = danbooru_tags(f"{APP_ROOT}/002.png")
+t = danbooru_tags(f"{APP_ROOT}/001.png")
 
 print("-"*20)
 print(t)

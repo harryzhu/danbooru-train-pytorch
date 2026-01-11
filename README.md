@@ -1,4 +1,4 @@
-# pytorch 版本 DeepDanbooru 的自定义图片、标签集训练（train）
+# Pytorch 版本 DeepDanbooru 自定义图片、标签集训练（train）
 
   * `DeepDanbooru` 原作者是使用的 Tensorflow 进行训练的， `danbooru-train-pytorch`这里将其改为 `Pytorch` 实现训练
 
@@ -15,9 +15,10 @@
   * 图片文件名为 `md5 值 + .png`, 文件夹名称为 `md5值的前两位`, 标签集为同路径下同 md5 值，但是后缀名为 .txt 的文本文件
 
   * `data` 文件下有：
-    `tags.txt`原始的标签集(共9176个标签)
-    `safe_tags.txt`（共6684个标签，为从`tags.txt`中移除了一些 nsfw 的标签）
-    `image_classes.txt`（图片集中已有的标签，少于或等于`safe_tags.txt`的数量）
+    1) `tags.txt`原始的标签集(共9176个标签), 请不要修改此原始标签
+
+    2) `safe_tags.txt`，共6600+个标签，为从`tags.txt`中移除了一些 nsfw 的标签，自定义图片只训练包含在此文件中的标签，其他的标签会被忽略掉
+
 
 ![](doc/data_dir.png)
 

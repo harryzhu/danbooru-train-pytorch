@@ -17,6 +17,8 @@ LICENSE
 NOTICE*
 .DS_Store
 .DS_Store?
+.pth
+.pt
 .zip
 .tar*
 .jar

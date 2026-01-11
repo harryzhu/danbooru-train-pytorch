@@ -13,9 +13,10 @@ def rm_broken_image(dpath):
 				img = cv2.imread(fpath)
 				if img is None:
 					print(f'ERROR:{fpath}')
+					#os.remove(fpath)
 			except Exception as err:
 				print(fpath)
 				print(err)
 
 
-rm_broken_image("d:/app/t3/data/images")
+rm_broken_image("data/ages")
