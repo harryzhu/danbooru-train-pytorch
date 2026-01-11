@@ -1,5 +1,14 @@
 # Pytorch 版本 DeepDanbooru 自定义图片、标签集训练（train）
 
+## Train
+```Bash
+python ./03_train.py
+
+# config.py 配置项
+```
+
+## Summary
+
   * `DeepDanbooru` 原作者是使用的 Tensorflow 进行训练的， `danbooru-train-pytorch`这里将其改为 `Pytorch` 实现训练
 
   * 标签集改为 一张图片 对应 一个 .txt 文件， 不再采用原来的 sqlite3 模式
@@ -20,9 +29,9 @@
     2) `safe_tags.txt`，共6600+个标签，为从`tags.txt`中移除了一些 nsfw 的标签，自定义图片只训练包含在此文件中的标签，其他的标签会被忽略掉
 
 
-![](doc/data_dir.png)
+![data_images](doc/data_dir.png "图片集，位于 data/images 文件夹内")
 
-![](doc/image_label.png)
+![图片-标签 一一对应 ](doc/image_label.png "图片-标签 一一对应 ")
 
 ## Loss 图例
 
